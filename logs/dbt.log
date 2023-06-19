@@ -1,0 +1,161 @@
+[0m22:25:00.848491 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a49daa40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a34a1480>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a34a1510>]}
+
+
+============================== 22:25:00.851395 | 8b84fa8f-0b1b-430e-b23d-400d4c035c88 ==============================
+[0m22:25:00.851395 [info ] [MainThread]: Running with dbt=1.5.1
+[0m22:25:00.852107 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/jpalvim/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m22:25:00.853552 [debug] [MainThread]: Starter project path: /home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m22:31:45.428563 [info ] [MainThread]: Profile dbtlearn written to /home/jpalvim/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:31:45.430278 [info ] [MainThread]: 
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:31:45.432452 [debug] [MainThread]: Command `dbt init` succeeded at 22:31:45.432169 after 404.59 seconds
+[0m22:31:45.433277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a49daa40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a6923670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f30a424c700>]}
+[0m22:31:45.434182 [debug] [MainThread]: Flushing usage events
+[0m21:47:07.601575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03091faa70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0307cc1c90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0307cc1b70>]}
+
+
+============================== 21:47:07.604230 | c154cdf6-56ef-4499-8bdb-6eca5fe2f103 ==============================
+[0m21:47:07.604230 [info ] [MainThread]: Running with dbt=1.5.1
+[0m21:47:07.604853 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jpalvim/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m21:47:07.605498 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /home/jpalvim/Desktop/github/dbt-airbnb/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:47:07.606429 [debug] [MainThread]: Command `dbt seed` failed at 21:47:07.606289 after 0.01 seconds
+[0m21:47:07.606850 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f03091faa70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0307cc1ba0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0307cc1fc0>]}
+[0m21:47:07.607303 [debug] [MainThread]: Flushing usage events
+[0m13:50:11.682508 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f93610f6ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935fbc1c30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935fbc1ae0>]}
+
+
+============================== 13:50:11.684962 | 4071f9bd-a8f2-4d97-818c-fe6b298c7248 ==============================
+[0m13:50:11.684962 [info ] [MainThread]: Running with dbt=1.5.1
+[0m13:50:11.685738 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': '/home/jpalvim/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:50:17.603983 [debug] [MainThread]: Starter project path: /home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m13:50:24.909869 [error] [MainThread]: Encountered an error:
+
+[0m13:50:24.915426 [error] [MainThread]: Traceback (most recent call last):
+  File "/home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 86, in wrapper
+    result, success = func(*args, **kwargs)
+  File "/home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/cli/requires.py", line 71, in wrapper
+    return func(*args, **kwargs)
+  File "/home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/cli/main.py", line 457, in init
+    results = task.run()
+  File "/home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/task/init.py", line 304, in run
+    adapter = self.ask_for_adapter_choice()
+  File "/home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/task/init.py", line 230, in ask_for_adapter_choice
+    numeric_choice = click.prompt(prompt_msg, type=click.INT)
+  File "/home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/click/termui.py", line 166, in prompt
+    value = prompt_func(prompt)
+  File "/home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/click/termui.py", line 149, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+
+[0m13:50:24.920029 [debug] [MainThread]: Command `dbt init` failed at 13:50:24.919365 after 13.24 seconds
+[0m13:50:24.922203 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f93610f6ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935fbc2aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f935fbc1ea0>]}
+[0m13:50:24.924258 [debug] [MainThread]: Flushing usage events
+[0m13:50:45.482292 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff639fe9a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff638aa1fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff638aa1f00>]}
+
+
+============================== 13:50:45.484814 | e096093b-fe9e-4b69-adc0-fe7bff56afa6 ==============================
+[0m13:50:45.484814 [info ] [MainThread]: Running with dbt=1.5.1
+[0m13:50:45.485576 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jpalvim/.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:50:48.552716 [info ] [MainThread]: A project called dbtbigquery already exists here.
+[0m13:50:48.553945 [debug] [MainThread]: Command `dbt init` succeeded at 13:50:48.553692 after 3.08 seconds
+[0m13:50:48.554461 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff639fe9a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff638aa21d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff638aa1f90>]}
+[0m13:50:48.554919 [debug] [MainThread]: Flushing usage events
+[0m13:51:01.209585 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabdb9eda20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabda4b1fc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabda4b1f00>]}
+
+
+============================== 13:51:01.211950 | 0cb4ffd2-c36b-4735-a583-08eb97fc2351 ==============================
+[0m13:51:01.211950 [info ] [MainThread]: Running with dbt=1.5.1
+[0m13:51:01.212593 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/home/jpalvim/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:51:03.604164 [debug] [MainThread]: Starter project path: /home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m13:53:16.809561 [info ] [MainThread]: Profile dbtbigquery written to /home/jpalvim/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:53:16.811924 [info ] [MainThread]: 
+Your new dbt project "dbtbigquery" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:53:16.816622 [debug] [MainThread]: Command `dbt init` succeeded at 13:53:16.815604 after 135.61 seconds
+[0m13:53:16.819401 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabdb9eda20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabd82970d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fabd82960b0>]}
+[0m13:53:16.822330 [debug] [MainThread]: Flushing usage events
+[0m13:53:23.985833 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a19101a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a17dbdfc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a17dbde70>]}
+
+
+============================== 13:53:23.988234 | 84cd3f00-ae22-4bab-ab2f-bbbead45102a ==============================
+[0m13:53:23.988234 [info ] [MainThread]: Running with dbt=1.5.1
+[0m13:53:23.988896 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jpalvim/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m13:53:23.989478 [info ] [MainThread]: dbt version: 1.5.1
+[0m13:53:23.989997 [info ] [MainThread]: python version: 3.10.6
+[0m13:53:23.990479 [info ] [MainThread]: python path: /home/jpalvim/Desktop/github/dbt-airbnb/venv/bin/python
+[0m13:53:23.991004 [info ] [MainThread]: os info: Linux-5.19.0-43-generic-x86_64-with-glibc2.35
+[0m13:53:23.991555 [info ] [MainThread]: Using profiles.yml file at /home/jpalvim/.dbt/profiles.yml
+[0m13:53:23.992158 [info ] [MainThread]: Using dbt_project.yml file at /home/jpalvim/Desktop/github/dbt-airbnb/dbt_project.yml
+[0m13:53:23.992826 [info ] [MainThread]: Configuration:
+[0m13:53:24.436219 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:53:24.436818 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:53:24.437275 [info ] [MainThread]: Required dependencies:
+[0m13:53:24.438003 [debug] [MainThread]: Executing "git --help"
+[0m13:53:24.441339 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m13:53:24.441933 [debug] [MainThread]: STDERR: "b''"
+[0m13:53:24.442309 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m13:53:24.442761 [info ] [MainThread]: [31m1 check failed:[0m
+[0m13:53:24.443346 [info ] [MainThread]: Could not load dbt_project.yml
+
+[0m13:53:24.444783 [debug] [MainThread]: Command `dbt debug` failed at 13:53:24.444503 after 0.47 seconds
+[0m13:53:24.445929 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a19101a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a15ba0e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7a157e3cd0>]}
+[0m13:53:24.446667 [debug] [MainThread]: Flushing usage events
+[0m11:30:48.957235 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f018aa09a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f01896cded0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f01896cdde0>]}
+
+
+============================== 11:30:48.960125 | da1e4e64-e0da-4949-99e6-65e55fbc5948 ==============================
+[0m11:30:48.960125 [info ] [MainThread]: Running with dbt=1.5.1
+[0m11:30:48.961043 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/jpalvim/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m11:30:54.054249 [debug] [MainThread]: Starter project path: /home/jpalvim/Desktop/github/dbt-airbnb/venv/lib/python3.10/site-packages/dbt/include/starter_project
+[0m11:31:40.519550 [info ] [MainThread]: Profile bq2 written to /home/jpalvim/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:31:40.520713 [info ] [MainThread]: 
+Your new dbt project "bq2" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:31:40.522281 [debug] [MainThread]: Command `dbt init` succeeded at 11:31:40.522033 after 51.57 seconds
+[0m11:31:40.523244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f018aa09a20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f018a57b760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f018a57a170>]}
+[0m11:31:40.523935 [debug] [MainThread]: Flushing usage events
